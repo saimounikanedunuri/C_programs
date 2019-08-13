@@ -8,13 +8,7 @@ int main()
 {
 int N;
 float sum = 0.0;
-scanf("%d",&N); /*Read the value of N from test cases provided*/
-
-/* Complete the program. Please use the printf statement given below:
-
-printf("\nSum of the series is: %.2f",sum);
-
-*/
+scanf("%d",&N);
 int i;
 for(i=1;i<=N;i++)
 sum = sum + ((float)1/(float)i);
